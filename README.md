@@ -21,8 +21,8 @@ Start by either downloading the zip file or clone with HTTPS.
 ```
 nano .bash_profile
 ```
-* Paste the following script in the nano text-editor
 
+* Paste the following script in the Nano modeless editor
 ```
 # Setting PATH for Python 3.7
 # The original version is saved in .bash_profile.pysave
@@ -33,6 +33,18 @@ alias python=python3
 alias pip=pip3
 ```
 
+* Quit the terminal, and reopen it to check if newer $PATH setup for python worked by simply running the python shell.
+```
+python
+```
+
+* If you see something like this, then you're good to go!
+```
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
 
 ## Built With
 
