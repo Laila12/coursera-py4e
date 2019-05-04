@@ -21,9 +21,17 @@ Start by either downloading the zip file or clone with HTTPS.
 ```
 nano .bash_profile
 ```
+* Paste the following script in the nano text-editor
 
+```
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
 
-
+alias python=python3
+alias pip=pip3
+```
 
 
 ## Built With
